@@ -1,0 +1,96 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/userinfo",
+    "pages/recharge/recharge",
+    "pages/address/detail",
+    "pages/address/list",
+    "pages/cart/list",
+    "pages/cart/add-or-update",
+    "pages/cart/detail",
+    "pages/forum/forum-index",
+    "pages/forum/forum-detail",
+    "pages/forum/forum-my",
+    "pages/forum/forum-add-or-update",
+    "pages/goods/list",
+    "pages/goods/add-or-update",
+    "pages/goods/detail",
+    "pages/goodsCommentback/list",
+    "pages/goodsCommentback/add-or-update",
+    "pages/goodsCommentback/detail",
+    "pages/goodsOrder/list",
+    "pages/goodsOrder/confirm",
+    "pages/jianshenjihua/list",
+    "pages/jianshenjihua/add-or-update",
+    "pages/jianshenjihua/detail",
+    "pages/jianshenjilu/list",
+    "pages/jianshenjilu/add-or-update",
+    "pages/jianshenjilu/detail",
+    "pages/jianshenkecheng/list",
+    "pages/jianshenkecheng/add-or-update",
+    "pages/jianshenkecheng/detail",
+    "pages/jianshenkechengCollection/list",
+    "pages/jianshenkechengCollection/add-or-update",
+    "pages/jianshenkechengCollection/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "健身达人",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#FFEA00",
+    "borderStyle": "black",
+    "backgroundColor": "#990033",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/goods/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "商品信息"
+      },
+      {
+        "pagePath": "pages/jianshenkecheng/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "健身课程"
+      },
+      {
+        "pagePath": "pages/forum/forum-index",
+        "iconPath": "static/tabs/order.png",
+        "selectedIconPath": "static/tabs/order1.png",
+        "text": "论坛"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
